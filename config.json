@@ -1,0 +1,105 @@
+{
+    "almaviva_url": "https://egy.almaviva-visa.it/",
+    "proxy": {
+        "enabled": false,
+        "host": "",
+        "port": "",
+        "username": "",
+        "password": ""
+    },
+    "selectors": {
+        "login_page": {
+            "email_input": {
+                "by": "ID",
+                "value": "username"
+            },
+            "password_input": {
+                "by": "ID",
+                "value": "password"
+            },
+            "login_button": {
+                "by": "ID",
+                "value": "kc-login"
+            },
+            "go_to_login_button": {
+                "by": "XPATH",
+                "value": "//mat-icon[text()='personoutline']"
+            }
+        },
+        "navigation": {
+            "take_appointment_button": {
+                "by": "CSS_SELECTOR",
+                "value": "a[href='/appointment']"
+            }
+        },
+        "booking_form": {
+            "center_select": {
+                "by": "ID",
+                "value": "form-center"
+            },
+            "service_level_select": {
+                "by": "ID",
+                "value": "form-service-level"
+            },
+            "visa_type_select": {
+                "by": "ID",
+                "value": "form-visa"
+            },
+            "num_visas_input": {
+                "by": "ID",
+                "value": "form-num-visas"
+            },
+            "terms_checkbox": {
+                "by": "XPATH",
+                "value": "//input[@type='checkbox' and contains(@aria-label, 'Terms')]"
+            },
+            "privacy_checkbox": {
+                "by": "XPATH",
+                "value": "//input[@type='checkbox' and contains(@aria-label, 'Privacy')]"
+            },
+            "check_availability_button": {
+                "by": "XPATH",
+                "value": "//button[contains(text(), 'Check Availability')]"
+            },
+            "trip_date_input": {
+                "by": "ID",
+                "value": "form-trip-date"
+            }
+        },
+        "booking_page": {
+            "no_appointments_text": "No appointment slots are currently available",
+            "book_button": {
+                "by": "CSS_SELECTOR",
+                "value": ".available-slot .book-button"
+            }
+        }
+    },
+    "profiles": {
+        "Default": {
+            "email": "your_email@example.com",
+            "password": "your_password",
+            "visa_type": "Tourism",
+            "center": "Cairo",
+            "passport_number": "A12345678",
+            "nationality": "EGYPT",
+            "dob_day": "1",
+            "dob_month": "1",
+            "dob_year": "1990",
+            "phone_country_code": "+20",
+            "phone_number": "1234567890"
+        },
+        "user1": {
+            "email": "medsa273@gmail.com",
+            "password": "FkS_EYLMtzJ_26G",
+            "center": "Alexandria",
+            "visa_type": "Tourism",
+            "destination": "italy",
+            "passport_number": "A12345678",
+            "nationality": "EGYPT",
+            "phone": "+9 1",
+            "dob": "",
+            "service_level": "Standard-EGP 1750",
+            "num_visas": "1"
+        }
+    }
+}

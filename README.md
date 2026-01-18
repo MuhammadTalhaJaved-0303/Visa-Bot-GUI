@@ -1,6 +1,6 @@
 # Visa Appointment Bot
 
-This is an automated bot to assist in booking visa appointments through the Almaviva Visa website. It features a graphical user interface built with Tkinter and an automation backend powered by Selenium and beautifulsoup.
+This is an automated bot to assist in booking visa appointments through the Almaviva Visa website. It features a graphical user interface built with Tkinter and an automation backend powered by Selenium.
 
 ## Features
 - **Profile Management**: Supports multiple user profiles that can be configured and saved.
@@ -104,3 +104,4 @@ To run the bot automatically every day:
 - **ChromeDriver Issues**: Ensure your version of Google Chrome is compatible with the `chromedriver` managed by Selenium. Selenium usually handles this, but corporate policies might interfere.
 
 - **Proxy Failure**: Double-check your proxy server address and port in `config.json`. Ensure the proxy is running and accessible. 
+
